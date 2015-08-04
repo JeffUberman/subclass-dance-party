@@ -1,6 +1,6 @@
 var Dancer = function(top, left, timeBetweenSteps) {
   this.time = timeBetweenSteps;
-  this.$node = $('<span class="dancer">#</span>');
+  this.$node = $('<span class="dancer"><img src="http://media.giphy.com/media/Cf6KmzYYJAg8w/giphy.gif"></span>');
   this.step();
 };
 
